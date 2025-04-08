@@ -20,6 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(200, 200, 200);
+
 }
 .nav-header-inicio a{
     text-decoration: none;
@@ -29,6 +31,11 @@
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    background-color: rgb(172, 172, 172);
+}
+.nav-header-inicio a:hover{
+    background-color: #333;
+    color: white;
 }
 .nav-header-inicio li{
     list-style: none;
