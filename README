@@ -1,0 +1,40 @@
+# Portfolio Personal
+
+Este es mi portfolio personal, diseñado para mostrar mis habilidades, proyectos y experiencia como programador. Aquí encontrarás información sobre los lenguajes y tecnologías que manejo, así como ejemplos de proyectos destacados en los que he trabajado.
+
+## Características
+
+- **Diseño Responsivo**: Adaptado para verse correctamente en dispositivos móviles, tabletas y computadoras.
+- **Proyectos Destacados**: Sección dedicada a mostrar proyectos con descripciones, capturas de pantalla y enlaces al código fuente.
+- **Acerca de Mí**: Información sobre mi experiencia, habilidades técnicas y objetivos profesionales.
+- **Contacto**: Formulario para que los visitantes puedan ponerse en contacto conmigo fácilmente.
+
+## Tecnologías Utilizadas
+
+- HTML5, CSS3, JavaScript
+- Frameworks como React o Vue.js - En proceso
+- Backend con Node.js y Express - En proceso
+- Bases de datos como MongoDB o MySQL - En proceso
+
+## Instalación y Uso
+
+1. Clona este repositorio:
+    ```
+    git clone https://github.com/IvanRavarotto/Portfolio
+    ```
+2. Navega al directorio del proyecto:
+    ```
+    cd portfolio
+    ```
+3. Instala las dependencias (si aplica):
+    ```
+    npm install
+    ```
+4. Inicia el servidor de desarrollo:
+    ```
+    npm start
+    ```
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, siéntete libre de abrir un issue o enviar un pull request. ¡Toda ayuda es bienvenida!
