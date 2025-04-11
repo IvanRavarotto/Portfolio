@@ -56,12 +56,50 @@ body{
 
 }
 
+/* sobre mi styles */
+#sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
 
+.titulo-sobremi {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
+.descripcion-sobremi {
+    text-align: center;
+    margin: 0 10px;
+}
 
+/* proyectos styles*/
+#proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    
+}
 
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+#Proyecto1 {
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
 
-
+/* curriculum styles*/
 
 #curriculum{
     display: flex;
@@ -69,6 +107,34 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px;
+    text-align: center;
+}
+
+.datosmios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.datospersonalesh2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mi-foto {
+    width: 175px;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+
+.datos-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     text-align: center;
 }
 
