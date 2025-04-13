@@ -1,4 +1,3 @@
-/*Header*/
 .header{
     display: flex;
     align-items: center;
@@ -40,12 +39,9 @@
     list-style: none;
     display: inline;
 }
-/*Body styles*/
 body{
     background-color: white;
 }
-
-/* Main styles */
 .inicio{
     display: flex;
     flex-direction: column;
@@ -55,8 +51,6 @@ body{
     text-align: center;
 
 }
-
-/* sobre mi styles */
 #sobremi {
     display: flex;
     flex-direction: column;
@@ -65,19 +59,15 @@ body{
     text-align: center;
     padding: 20px;
 }
-
 .titulo-sobremi {
     font-weight: bold;
     margin-bottom: 15px;
     text-align: center;
 }
-
 .descripcion-sobremi {
     text-align: center;
     margin: 0 10px;
 }
-
-/* proyectos styles*/
 #proyectos {
     display: flex;
     flex-direction: column;
@@ -87,20 +77,23 @@ body{
     padding: 20px;
     
 }
-
 #proyectos ul {
     list-style: none;
     padding: 0;
     margin: 0;
     font-weight: bold;
 }
-#Proyecto1 {
+
+.proyectos-diseno{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.proyectos-logo {
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
-
-/* curriculum styles*/
-
 #curriculum{
     display: flex;
     flex-direction: column;
@@ -109,7 +102,6 @@ body{
     padding: 20px;
     text-align: center;
 }
-
 .datosmios {
     display: flex;
     flex-direction: column;
@@ -117,28 +109,23 @@ body{
     justify-content: center;
     text-align: center;
 }
-
 .datospersonalesh2 {
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 15px;
 }
-
 .mi-foto {
     width: 175px;
     height: auto;
     border-radius: 10%;
     margin-bottom: 15px;
 }
-
 .datos-lista {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
-
-/* Footer styles */
 footer {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -146,81 +133,63 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
 footer h2 {
     grid-column: 1 / -1;
     margin-bottom: 20px;
 }
-
 #contacto-lista1, #contacto-lista2 {
     margin: 0;
     padding: 0;
 }
-
 #contacto-lista1 {
     grid-column: 1 / 2;
     text-align: left;
 }
-
 #contacto-lista2 {
     grid-column: 2 / 3;
     text-align: left;
 }
-
-
 @media (max-width: 768px) {
-    .header {
+
+    .header{
         flex-direction: column;
+        align-items: center;
+        margin: 15px;
     }
-
-    .logo {
-        width: 150px;
-        margin: 10px 0;
+    .nav-list-inicio{
+        width: auto;
+        height: auto;
+        padding: 30px;
     }
-
-    .nombre {
+    .nav-list-inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        list-style: none;
         font-size: 1.2rem;
-        margin: 5px 0;
+        font-weight: bold;
     }
-
-    .nav-header-inicio {
+    .nav-list-inicio li{
+        margin: 15px 0;
+        display: block;
+    }
+    #proyectos {
         flex-direction: column;
-    }
-
-    .nav-header-inicio a {
-        font-size: 1rem;
-        margin: 5px 0;
-        padding: 8px 15px;
-    }
-
-    .inicio, #sobremi, #proyectos, #curriculum {
         padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
     }
-
-    .titulo-sobremi, .datospersonalesh2 {
-        font-size: 1.5rem;
-    }
-
-    .descripcion-sobremi, .datos-lista {
-        font-size: 0.9rem;
-    }
-
     #proyectos ul {
-        font-size: 1rem;
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
-
-    .mi-foto {
-        width: 125px;
-    }
-
-    footer {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        text-align: center;
-    }
-
-    #contacto-lista1, #contacto-lista2 {
-        text-align: center;
-        margin-bottom: 10px;
+    .proyectos-logo {
+        width: 90%;
+        margin: 0 auto;
     }
 }
